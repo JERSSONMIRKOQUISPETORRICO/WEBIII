@@ -7,5 +7,6 @@ console.log("======================================");
 
 
 // 7. Almacenar el resto con desestructuración
+let arr = [10, 20, 30, 40, 50];
 let [a, b, ...resto] = arr;
 console.log("7:", resto);
